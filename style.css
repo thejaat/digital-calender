@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif; */
+font-family: 'Roboto', sans-serif;
+font-size: 62.5%;
+}
+body{
+    background: url(./img/wall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watch{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    height: 19rem;
+    width: 68rem;
+   padding-top: 1.5rem;
+}
+.box1{
+    float: left;
+    width: 45%;
+    text-align: center;
+    color: azure;
+    position: relative;
+    
+}
+
+.box2{
+    float: left;
+    width: 45%;
+    text-align: center;
+    color: azure;
+}
+.boxtick{
+    width: 10%;
+    float: left;
+    padding-top: 1rem;
+}
+.watch::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box1 .date, .tick{
+font-size: 10rem;
+font-weight: 700;
+color: azure;
+}
+.box1 .day{
+font-size: 4rem;
+font-weight: 700;
+}
+.box2 .year{
+font-size: 10rem;
+font-weight: 700;
+}
+.box2 .month{
+font-size: 4rem;
+font-weight: 700;
+}
